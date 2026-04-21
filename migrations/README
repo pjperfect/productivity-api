@@ -1,1 +1,7 @@
-Single-database configuration for Flask.
+Single-database configuration for the Productivity API.
+
+To apply migrations:
+    flask db upgrade
+
+To create a new migration after model changes:
+    flask db migrate -m "description of change"
