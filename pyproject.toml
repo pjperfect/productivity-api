@@ -1,0 +1,16 @@
+[project]
+name = "productivity-api"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "faker>=40.15.0",
+    "flask>=3.1.3",
+    "flask-bcrypt>=1.0.1",
+    "flask-migrate>=4.1.0",
+    "flask-restful>=0.3.10",
+    "flask-sqlalchemy>=3.1.1",
+    "importlib-metadata>=9.0.0",
+    "importlib-resources>=7.1.0",
+    "pytest>=9.0.3",
+    "werkzeug>=3.1.8",
+]
